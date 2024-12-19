@@ -85,13 +85,13 @@ public class MyClass
 **AVOID:**
 
 ```csharp
-private int _myPrivateVariable
+private int myPrivateVariable
 ```
 
 **PREFER:**
 
 ```csharp
-private int myPrivateVariable
+private int _myPrivateVariable
 ```
 
 Static fields are the exception and should be written in **PascalCase**:
